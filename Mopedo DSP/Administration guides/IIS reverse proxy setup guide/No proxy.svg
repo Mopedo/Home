@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="11 -52 408 199" width="34pc" height="199pt" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.6.1 
+    <dc:date>2018-02-09 14:21:38 +0000</dc:date>
+  </metadata>
+  <defs>
+    <font-face font-family="Faranvale" font-size="17.088757" panose-1="2 0 0 0 0 0 0 0 0 0" units-per-em="1000" underline-position="-75" underline-thickness="50" slope="0" x-height="508" cap-height="734" ascent="730.0015" descent="-204.00041" font-weight="500">
+      <font-face-src>
+        <font-face-name name="Faranvale"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Faranvale" font-size="19.224852" panose-1="2 0 0 0 0 0 0 0 0 0" units-per-em="1000" underline-position="-75" underline-thickness="50" slope="0" x-height="508" cap-height="734" ascent="730.0015" descent="-204.00041" font-weight="500">
+      <font-face-src>
+        <font-face-name name="Faranvale"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Faranvale" font-size="12.816568" panose-1="2 0 0 0 0 0 0 0 0 0" units-per-em="1000" underline-position="-75" underline-thickness="50" slope="0" x-height="508" cap-height="734" ascent="730.0015" descent="-204.00041" font-weight="500">
+      <font-face-src>
+        <font-face-name name="Faranvale"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>Canvas 2</title>
+    <g>
+      <title>Layer 1</title>
+      <path d="M 29.51759 -51.02362 L 401.02987 -51.02362 C 410.46773 -51.02362 418.11863 -43.372725 418.11863 -33.934865 L 418.11863 128.67745 C 418.11863 138.1153 410.46773 145.7662 401.02987 145.7662 L 29.51759 145.7662 C 20.079728 145.7662 12.428831 138.1153 12.428831 128.67745 L 12.428831 -33.934865 C 12.428831 -43.372725 20.079728 -51.02362 29.51759 -51.02362 Z" fill="#2b589a"/>
+      <path d="M 29.51759 -51.02362 L 401.02987 -51.02362 C 410.46773 -51.02362 418.11863 -43.372725 418.11863 -33.934865 L 418.11863 128.67745 C 418.11863 138.1153 410.46773 145.7662 401.02987 145.7662 L 29.51759 145.7662 C 20.079728 145.7662 12.428831 138.1153 12.428831 128.67745 L 12.428831 -33.934865 C 12.428831 -43.372725 20.079728 -51.02362 29.51759 -51.02362 Z" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0680473"/>
+      <line x1="304.36855" y1="47.444693" x2="142.32483" y2="47.38031" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.1360947"/>
+      <path d="M 50.357127 19.60206 L 93.07902 19.60206 C 98.97768 19.60206 103.75949 24.38387 103.75949 30.282533 L 103.75949 64.46005 C 103.75949 70.35871 98.97768 75.14052 93.07902 75.14052 L 50.357127 75.14052 C 44.458464 75.14052 39.676653 70.35871 39.676653 64.46005 L 39.676653 30.282533 C 39.676653 24.38387 44.458464 19.60206 50.357127 19.60206 Z" fill="#2b5ba0"/>
+      <path d="M 50.357127 19.60206 L 93.07902 19.60206 C 98.97768 19.60206 103.75949 24.38387 103.75949 30.282533 L 103.75949 64.46005 C 103.75949 70.35871 98.97768 75.14052 93.07902 75.14052 L 50.357127 75.14052 C 44.458464 75.14052 39.676653 70.35871 39.676653 64.46005 L 39.676653 30.282533 C 39.676653 24.38387 44.458464 19.60206 50.357127 19.60206 Z" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4952662"/>
+      <text transform="translate(56.76541 37.815906)" fill="white">
+        <tspan font-family="Faranvale" font-size="17.088757" font-weight="500" fill="white" x="0" y="15">DSP</tspan>
+      </text>
+      <text transform="translate(315.04903 36.465063)" fill="white">
+        <tspan font-family="Faranvale" font-size="19.224852" font-weight="500" fill="white" x="0" y="18">TCP: 8282</tspan>
+      </text>
+      <text transform="translate(236.01352 102.69955)" fill="white">
+        <tspan font-family="Faranvale" font-size="19.224852" font-weight="500" fill="white" x="0" y="18">Firewall</tspan>
+      </text>
+      <path d="M 101.47202 37.758865 L 137.78563 37.758865 C 140.1451 37.758865 142.05782 39.67159 142.05782 42.031054 L 142.05782 52.71153 C 142.05782 55.07099 140.1451 56.983717 137.78563 56.983717 L 101.47202 56.983717 C 99.11256 56.983717 97.19983 55.07099 97.19983 52.71153 L 97.19983 42.031054 C 97.19983 39.67159 99.11256 37.758865 101.47202 37.758865 Z" fill="#2a579a"/>
+      <path d="M 101.47202 37.758865 L 137.78563 37.758865 C 140.1451 37.758865 142.05782 39.67159 142.05782 42.031054 L 142.05782 52.71153 C 142.05782 55.07099 140.1451 56.983717 137.78563 56.983717 L 101.47202 56.983717 C 99.11256 56.983717 97.19983 55.07099 97.19983 52.71153 L 97.19983 42.031054 C 97.19983 39.67159 99.11256 37.758865 101.47202 37.758865 Z" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0680473"/>
+      <text transform="translate(105.74421 40.37129)" fill="white">
+        <tspan font-family="Faranvale" font-size="12.816568" font-weight="500" fill="white" x="0" y="11">8282</tspan>
+      </text>
+      <text transform="translate(326.79755 -33.539557)" fill="white">
+        <tspan font-family="Faranvale" font-size="19.224852" font-weight="500" fill="white" x="0" y="18">Internet</tspan>
+      </text>
+      <text transform="translate(177.50405 -33.539557)" fill="white">
+        <tspan font-family="Faranvale" font-size="19.224852" font-weight="500" fill="white" x="0" y="18">Server</tspan>
+      </text>
+      <text transform="translate(180.54117 26.73897)" fill="white">
+        <tspan font-family="Faranvale" font-size="12.816568" font-weight="500" fill="white" x="0" y="11">HTTP</tspan>
+      </text>
+      <path d="M 264.743 -2.525392 L 264.743 -2.525392 C 269.44024 -2.525392 273.2481 1.2824713 273.2481 5.9797086 L 273.2481 88.87819 C 273.2481 93.57543 269.44024 97.38329 264.743 97.38329 L 264.743 97.38329 C 260.04576 97.38329 256.2379 93.57543 256.2379 88.87819 L 256.2379 5.9797086 C 256.2379 1.2824713 260.04576 -2.525392 264.743 -2.525392 Z" fill="#2b589a"/>
+      <path d="M 264.743 -2.525392 L 264.743 -2.525392 C 269.44024 -2.525392 273.2481 1.2824713 273.2481 5.9797086 L 273.2481 88.87819 C 273.2481 93.57543 269.44024 97.38329 264.743 97.38329 L 264.743 97.38329 C 260.04576 97.38329 256.2379 93.57543 256.2379 88.87819 L 256.2379 5.9797086 C 256.2379 1.2824713 260.04576 -2.525392 264.743 -2.525392 Z" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0680473"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,311 @@
+main:
+  - title: "<b>Home</b>"
+    url: /
+  - title: "<b>DSP</b>"
+    url: /Mopedo%20DSP
+  - title: "<b>RESTar</b>"
+    url: /RESTar
+  - title: "<b>Dynamit</b>"
+    url: https://github.com/Mopedo/Dynamit
+
+dsp:
+
+  - title: Feature guides
+    children:
+        - title: "User matching"
+          url: /Mopedo%20DSP/Feature%20guides/User%20matching/
+        - title: "Bid request filtering"
+          url: /Mopedo%20DSP/Feature%20guides/Bid%20request%20filtering/
+        - title: "Advertising example"
+          url: /Mopedo%20DSP/Feature%20guides/Advertising%20example/
+
+  - title: Developer guides
+    children:
+        - title: "REST API introduction"
+          url: /Mopedo%20DSP/Developer%20guides/REST%20API%20introduction/
+        - title: "API reference →"
+          url: /Mopedo%20DSP/Developer%20guides/API%20reference/API%20reference%20overview/
+        - title: "Bid request archive"
+          url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Archive/BidRequestArchive/
+
+  - title: Administration guides
+    children:
+      - title: "Getting started"
+        url: /Mopedo%20DSP/Administration%20guides/Getting%20started/
+      - title: "Installation guide"
+        url: /Mopedo%20DSP/Administration%20guides/Installation%20guide/
+      - title: "Configuration guide"
+        url: /Mopedo%20DSP/Administration%20guides/Configuration%20guide/
+      - title: "Google Cloud setup guide"
+        url: /Mopedo%20DSP/Administration%20guides/Google%20Cloud%20setup%20guide/
+      - title: "IIS reverse proxy setup guide"
+        url: /Mopedo%20DSP/Administration%20guides/IIS%20reverse%20proxy%20setup%20guide/
+      - title: "Managing the Starcounter database"
+        url: /Mopedo%20DSP/Administration%20guides/Starcounter%20management%20guide/
+      - title: "Troubleshooting guide"
+        url: /Mopedo%20DSP/Administration%20guides/Troubleshooting%20guide/
+
+dsp-api:
+
+  - title: "About"
+    children:
+      - title: "API reference overview"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/API%20reference%20overview/
+      - title: "JavaScript tag"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/JavaScript%20tag/
+      - title: "← Main documentation"
+        url: /Mopedo%20DSP/
+
+  - title: "Bidding resources"
+    children:
+      - title: "Ad"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Bidding/Ad/
+      - title: "Banner"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Bidding/Banner/
+      - title: "Broadcaster"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Bidding/Broadcaster/
+      - title: "Campaign"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Bidding/Campaign/
+      - title: "Click tracking"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Bidding/Click%20tracking/
+      - title: "Error"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Bidding/Error/
+      - title: "NoBidReason"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Bidding/NoBidReason/
+      - title: "Now"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Bidding/Now/
+      - title: "Statistics"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Bidding/Statistics/
+      - title: "CampaignSpendingSnapshot"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Bidding/CampaignSpendingSnapshot/
+      - title: "AdSpendingSnapshot"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Bidding/AdSpendingSnapshot/
+      - title: "Path expressions and macros"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Bidding/Path%20expressions%20and%20macros/
+
+  - title: "Database resources"
+    children:
+      - title: "User"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Database/User/
+      - title: "Device"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Database/Device/
+      - title: "Site"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Database/Site/
+      - title: "App"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Database/App/
+      - title: "BidRequest"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Database/BidRequest/
+      - title: "BidResponse"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Database/BidResponse/
+      - title: "Bid"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Database/Bid/
+      - title: "Win"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Database/Win/
+      - title: "ClickFeed"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Database/ClickFeed/
+      - title: "IabCode"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Database/IabCode/
+      - title: "Publisher"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Database/Publisher/
+      - title: "Common properties"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Database/Common%20properties/
+
+  - title: "Client data resources"
+    children:
+      - title: "UserExtension"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.ClientData/UserExtension/
+      - title: "DeviceExtension"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.ClientData/DeviceExtension/
+      - title: "SiteExtension"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.ClientData/SiteExtension/
+      - title: "AppExtension"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.ClientData/AppExtension/
+
+  - title: "Reporting resources"
+    children:
+      - title: "Reporting overview"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Reporting/Reporting%20overview/
+      - title: "BiddingStatistics"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Reporting/BiddingStatistics/
+      - title: "WinReport"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Reporting/WinReport/
+      - title: "BidReport"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Reporting/BidReport/
+      - title: "UnsupportedBannerReport"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Reporting/UnsupportedBannerReport/
+      - title: "PeriodReport"
+
+  - title: "Archive resources"
+    children:
+      - title: "Archive overview"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Archive/Archive%20overview/
+      - title: "Routines"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Archive/Routines/
+      - title: "BidRequestArchive"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Archive/BidRequestArchive/
+      - title: "BidResponseArchive"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Archive/BidResponseArchive/
+      - title: "BidArchive"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Archive/BidArchive/
+      - title: "WinArchive"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Archive/WinArchive/
+      - title: "NoBidReasonArchive"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Archive/NoBidReasonArchive/
+
+  - title: "Debug resources"
+    children:
+      - title: "BidderConsole"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Debug/BidderConsole/
+      - title: "RoutineControls"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Debug/RoutineControls/
+      - title: "SnapshotControls"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Debug/SnapshotControls/
+
+  - title: "Other resources"
+    children:
+      - title: "Currency"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Currency/
+      - title: "ErrorLog"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/ErrorLog/
+      - title: "Operator"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Operator/
+      - title: "Settings"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Settings/
+      - title: "Datetime"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Datetime/
+      - title: "Price"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Price/
+
+restar:
+   - title: General
+     children:
+       - title: "What is RESTar?"
+         url: /RESTar/
+       - title: "What's new?"
+         url: /RESTar/What%27s%20new/
+       - title: "Tutorial GitHub repository →"
+         url: https://github.com/Mopedo/RESTar.Tutorial
+       - title: "Resource kinds"
+         url: /RESTar/Resource%20kinds/
+       - title: "Built-in resources →"
+         url: /RESTar/Built-in%20resources/Overview/
+
+   - title: Consuming a RESTar API
+     children:
+       - title: "Introduction"
+         url: /RESTar/Consuming%20a%20RESTar%20API/Introduction/
+       - title: "Demo service"
+         url: /RESTar/Consuming%20a%20RESTar%20API/Demo%20service/
+       - title: "Request overview"
+         url: /RESTar/Consuming%20a%20RESTar%20API/Request%20overview/
+       - title: "Methods"
+         url: /RESTar/Consuming%20a%20RESTar%20API/Methods/
+       - title: "URI"
+         url: /RESTar/Consuming%20a%20RESTar%20API/URI/
+       - title: "Headers"
+         url: /RESTar/Consuming%20a%20RESTar%20API/Headers/
+       - title: "Body and data sources"
+         url: /RESTar/Consuming%20a%20RESTar%20API/Body%20and%20data%20sources/
+       - title: "Responses"
+         url: /RESTar/Consuming%20a%20RESTar%20API/Responses/
+       - title: "Consuming terminal resources"
+         url: /RESTar/Consuming%20a%20RESTar%20API/Consuming%20terminal%20resources/
+
+   - title: Administering a RESTar API
+     children:
+       - title: "Introduction"
+         url: /RESTar/Administering%20a%20RESTar%20API/Introduction/
+       - title: "Configuration"
+         url: /RESTar/Administering%20a%20RESTar%20API/Configuration/
+       - title: "API keys"
+         url: /RESTar/Administering%20a%20RESTar%20API/API%20keys/
+       - title: "CORS"
+         url: /RESTar/Administering%20a%20RESTar%20API/CORS/
+       - title: "HTTPS"
+         url: /RESTar/Administering%20a%20RESTar%20API/HTTPS/
+       - title: "Macros"
+         url: /RESTar/Administering%20a%20RESTar%20API/Macros/
+       - title: "JSON output formats"
+         url: /RESTar/Administering%20a%20RESTar%20API/JSON%20output%20formats/
+       - title: "Webhooks"
+         url: /RESTar/Administering%20a%20RESTar%20API/Webhooks/
+       - title: "Dynamic resources"
+         url: /RESTar/Administering%20a%20RESTar%20API/Dynamic%20resources/
+
+   - title: Developing a RESTar API
+     children:
+       - title: "Introduction"
+         url: /RESTar/Administering%20a%20RESTar%20API/
+
+
+restar-api:
+
+  - title: About
+    children:
+       - title: "Overview"
+         url: /RESTar/Built-in%20resources/Overview/
+       - title: "← Main documentation"
+         url: /RESTar/
+
+  - title: RESTar
+    children:
+       - title: "Aggregator"
+         url: /RESTar/Built-in%20resources/RESTar/Aggregator/
+       - title: "AvailableResource"
+         url: /RESTar/Built-in%20resources/RESTar/AvailableResource/
+       - title: "Echo"
+         url: /RESTar/Built-in%20resources/RESTar/Echo/
+       - title: "Help"
+         url: /RESTar/Built-in%20resources/RESTar/Help/
+       - title: "SetOperations"
+         url: /RESTar/Built-in%20resources/RESTar/SetOperations/
+       - title: "Shell"
+         url: /RESTar/Built-in%20resources/RESTar/Shell/
+
+  - title: RESTar.Admin
+    children:
+       - title: "Console"
+         url: /RESTar/Built-in%20resources/RESTar.Admin/Console/
+       - title: "DatabaseIndex"
+         url: /RESTar/Built-in%20resources/RESTar.Admin/DatabaseIndex/
+       - title: "Error"
+         url: /RESTar/Built-in%20resources/RESTar.Admin/Error/
+       - title: "ErrorCode"
+         url: /RESTar/Built-in%20resources/RESTar.Admin/ErrorCode/
+       - title: "Event"
+         url: /RESTar/Built-in%20resources/RESTar.Admin/Event/
+       - title: "Macro"
+         url: /RESTar/Built-in%20resources/RESTar.Admin/Macro/
+       - title: "OutputFormat"
+         url: /RESTar/Built-in%20resources/RESTar.Admin/OutputFormat/
+       - title: "PropertyCache"
+         url: /RESTar/Built-in%20resources/RESTar.Admin/PropertyCache/
+       - title: "Protocol"
+         url: /RESTar/Built-in%20resources/RESTar.Admin/Protocol/
+       - title: "Resource"
+         url: /RESTar/Built-in%20resources/RESTar.Admin/Resource/
+       - title: "ResourceAlias"
+         url: /RESTar/Built-in%20resources/RESTar.Admin/ResourceAlias/
+       - title: "ResourceProfile"
+         url: /RESTar/Built-in%20resources/RESTar.Admin/ResourceProfile/
+       - title: "Schema"
+         url: /RESTar/Built-in%20resources/RESTar.Admin/Schema/
+       - title: "Settings"
+         url: /RESTar/Built-in%20resources/RESTar.Admin/Settings/
+       - title: "TermCache"
+         url: /RESTar/Built-in%20resources/RESTar.Admin/TermCache/
+       - title: "Utilities"
+         url: /RESTar/Built-in%20resources/RESTar.Admin/Utilities/
+       - title: "Webhook"
+         url: /RESTar/Built-in%20resources/RESTar.Admin/Webhook/
+       - title: "WebhookLog"
+         url: /RESTar/Built-in%20resources/RESTar.Admin/WebhookLog/
+       - title: "WebhookLogSettings"
+         url: /RESTar/Built-in%20resources/RESTar.Admin/WebhookLogSettings/
+       - title: "WebSocket"
+         url: /RESTar/Built-in%20resources/RESTar.Admin/WebSocket/
+
+  - title: RESTar.Dynamic
+    children:
+       - title: "Resource"
+         url: /RESTar/Built-in%20resources/RESTar.Dynamic/Resource/

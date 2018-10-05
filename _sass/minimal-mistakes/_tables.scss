@@ -1,0 +1,63 @@
+/* ==========================================================================
+   TABLES
+   ========================================================================== */
+
+table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  border-collapse: collapse;
+  border-top-color: gray;
+  border-right-color: gray;
+  border-bottom-color: gray;
+  border-left-color: gray;
+  border-spacing: 5px;
+  font-size: 0.9em;
+  margin-bottom: 16px;
+
+  & + table {
+    margin-top: 1em;
+  }
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-top-color: inherit;
+    border-right-color: inherit;
+    border-bottom-color: inherit;
+    border-left-color: inherit;
+}
+
+th {
+    padding: 6px 13px;
+    border: 1px solid #dfe2e5;
+    font-weight: 600;
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+td {
+    padding: 6px 13px;
+    border: 1px solid #dfe2e5;
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-top-color: inherit;
+    border-right-color: inherit;
+    border-bottom-color: inherit;
+    border-left-color: inherit;
+}
+
+tr:nth-child(even) {background: $code-background}
+tr:nth-child(odd) {background: #FFF}
+
+tr,
+td,
+th {
+  vertical-align: middle;
+}
