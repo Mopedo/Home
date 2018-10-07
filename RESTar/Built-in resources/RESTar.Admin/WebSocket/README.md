@@ -16,9 +16,10 @@ The `WebSocket` resource contains all WebSockets currently connected to the REST
 
 ## Format
 
-Property name | Type     | Description
-------------- | -------- | -----------------------------------------------------------------------------------
-Id            | `string` | The unique ID for the connection
-TerminalType  | `string` | The name of the terminal resource type that the WebSocket is currently connected to
-Terminal      | `object` | An object describing the current state of the terminal
-Client        | `object` | An object describing the client connected to the terminal
+Property name | Type      | Description
+------------- | --------- | -----------------------------------------------------------------------------------
+Id            | `string`  | The unique ID for the connection
+TerminalType  | `string`  | The name of the terminal resource type that the WebSocket is currently connected to
+Terminal      | `object`  | An object describing the current state of the terminal
+Client        | `object`  | An object describing the client connected to the terminal
+IsThis        | `boolean` | Is this WebSocket the same as the one currently requesting the resource?

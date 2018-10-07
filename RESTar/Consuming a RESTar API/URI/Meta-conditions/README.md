@@ -12,6 +12,7 @@ With meta-conditions, we can include meta-information about the request in the U
 - [**rename**](#rename)
 - [**distinct**](#distinct)
 - [**search**](#search)
+- [**search_regex**](#search)
 - [**safepost**](#safepost)
 - [**format**](#format)
 
@@ -174,10 +175,48 @@ If `distinct` is set to `true` in a request, only distinct objects will be inclu
 
 Type: `string`
 
-`search` applies a case insensitive string search filter on a representation of the output, and returns only entities that included the search pattern.
+`search` applies a search filter on a representation of the output, and returns only entities that included the search pattern.
 
 ```
 GET https://my-server.com/rest/customer//search=sitw
+Headers: 'Authorization: apikey mykey'
+Response body:
+{
+    "Cuid": "a234",
+    "DateOfRegistration": "1982-02-05T00:00:00Z",
+    "Name": "Stan Sitwell",
+    "Segment": "A1"
+}
+```
+
+### Search settings
+
+There are two search settings that can be included along with the search pattern, to control case sensitivity as well as to limit the search scope to the values of a given entity property. The syntax for this is the following (EBNF):
+
+```
+ConditionValue = Pattern ["," , PropertyScope, "," , ["CS" | "CI"]]
+PropertyScope = (? Property name ?)
+PropertyScope = ""
+```
+
+Search settings are optional. If no property scope is included, the whole entity is searched. If no case sensitivity setting is included, the search is case insensitive.
+
+#### Examples
+
+```
+/search=John%20Smith
+/search=John%20Smith,,CS
+/search=John%20Smith,name,CS
+```
+
+## `search_regex`
+
+Type: `string`
+
+`search_regex` applies a [regular expression](https://en.wikipedia.org/wiki/Regular_expression) string search filter on a representation of the output, and returns only entities that matched the search pattern. In the example below, we match only against customers with a name beginning with `S` and ending with `l`. Before URI encoding, the regex pattern looked like this: `^S.*l$`. See [this section](#search-settings) for how to include search settings.
+
+```
+GET https://my-server.com/rest/customer//search_regex=%5ES.%2Al%24
 Headers: 'Authorization: apikey mykey'
 Response body:
 {
