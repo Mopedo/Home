@@ -213,10 +213,10 @@ Search settings are optional. If no property scope is included, the whole entity
 
 Type: `string`
 
-`search_regex` applies a [regular expression](https://en.wikipedia.org/wiki/Regular_expression) string search filter on a representation of the output, and returns only entities that matched the search pattern. In the example below, we match only against customers with a name beginning with `S` and ending with `l`. Before URI encoding, the regex pattern looked like this: `^S.*l$`. See [this section](#search-settings) for how to include search settings.
+`search_regex` applies a [regular expression](https://en.wikipedia.org/wiki/Regular_expression) string search filter on a representation of the output, and returns only entities that matched the search pattern. In the example below, we match only against customers with a name beginning with `s` and ending with `l` (case insensitive). Before URI encoding, the regex pattern looked like this: `^s.*l$`. See [this section](#search-settings) for how to include search settings.
 
 ```
-GET https://my-server.com/rest/customer//search_regex=%5ES.%2Al%24
+GET https://my-server.com/rest/customer//search_regex=%5Es.%2Al%24,name,CI
 Headers: 'Authorization: apikey mykey'
 Response body:
 {
