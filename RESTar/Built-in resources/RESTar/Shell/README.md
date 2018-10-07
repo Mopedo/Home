@@ -24,6 +24,7 @@ WriteHeaders     | `boolean` | `false`    | Should the shell include headers whe
 AutoOptions      | `boolean` | `false`    | Should the shell automatically send an `OPTIONS` command after each successful navigation?
 AutoGet          | `boolean` | `false`    | Should the shell automatically send an `GET` command after each successful navigation?
 StreamBufferSize | `integer` | `16000000` | The buffer size (message size) to use with [WebSocket streaming](../../../Consuming%20a%20RESTar%20API/Consuming%20terminal%20resources#streaming)
+Protocol         | `string`  | `"restar"` | The [protocol](../../RESTar.Admin/Protocol) to use in requests
 
 ## Shell text commands
 
