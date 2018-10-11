@@ -4,7 +4,7 @@ permalink: Mopedo%20DSP/Developer%20guides/API%20reference/JavaScript%20tag/
 
 # JavaScript tag
 
-The Mopedo JavaScript tag is a piece of JavaScript code that allows buyers to assign unique identifiers to website visitors, and communicate said identifiers with sell-side partners, so that the identities of visitors may be known at a later stage for ad retargeting purposes. It commonly consists of two HTML `<script>` tags: **(1)** an asynchronous **cookie syncing script** and **(2)** a callback function that is called once the cookie syncing is completed. The Mopedo user ID is used as argument to the callback function. Using this ID, you can tag the user with your own data and then use this data when making bidding decisions.
+The Mopedo JavaScript tag is a piece of JavaScript code that allows buyers to assign unique identifiers to website visitors, and communicate said identifiers with sell-side partners, so that the identities of visitors may be known at a later stage for ad retargeting purposes. It commonly consists of two HTML `<script>` tags: **(1)** an asynchronous **cookie syncing script** and **(2)** a callback function that is called once the cookie syncing is completed. The Mopedo user ID is used as argument to the callback function. Using this ID in a call to the DSPs REST API, you can tag the user with your own data and then use this data when making bidding decisions.
 
 ```html
 <script src="https://storage.googleapis.com/mopedo-web/um.js"></script>
