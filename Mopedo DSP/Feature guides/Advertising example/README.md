@@ -31,7 +31,7 @@ The advertiser inserts the [Mopedo JavaScript tag](../../Developer%20guides/API%
 
 ## Data updates from the store backend
 
-Whenever a customer is identified, a REST API call is made from the store backend to the [`UserExtension`](../../Developer%20guides/API%20reference/Mopedo.ClientData/UserExtension) resource on the DSP, updating it with the content of a user database entity – using the `UUID` as unique identifier. Notice how the advertiser can keep using their existing data model on the DSP, since the `UserExtension` resource is dynamic. This is how one o these REST requests look:
+Whenever a customer is identified, a REST API call is made from the store backend to the [`UserExtension`](../../Developer%20guides/API%20reference/Mopedo.ClientData/UserExtension) resource on the DSP, updating it with the content of a user database entity – using the `UUID` as unique identifier. Notice how the advertiser can keep using their existing data model on the DSP, since the `UserExtension` resource is dynamic. This is how one of these REST requests look:
 
 ```
 PUT https://dsp.theshoestore.com/rest/userextension/UUID=GzA9-0001
