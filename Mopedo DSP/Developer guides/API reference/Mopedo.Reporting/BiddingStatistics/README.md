@@ -45,7 +45,9 @@ Statistics    | [`Statistics`](../../Mopedo.Bidding/Statistics) | The statistics
 
 ## Grouping
 
-`BiddingStatistics` supports grouping bidding statistics by a time period given in the `GroupBy` parameter. Using `GroupBy` we can, for example, order a day's spending into 8 "chunks", each representing a 3 hour periods of the day. Each allowed value of `GroupBy` has a certain spending snapshot period that it uses for generating the report(s). If we want to group spending by 20 minute periods, for example, we set `GroupBy` to `"20min"`, which would also mean we're using [`_20min`]() [campaign spending snapshots](../../Mopedo.Bidding/CampaignSpendingSnapshot) for the report. Some `GroupBy` values, like `"12h"` for example, does not have a dedicated snapshot period, and instead uses 4 `_3h` snapshots to generate each report. For each period `P`, where `P` is any of the values listed below, `GroupBy` groups the ouput into periods with `P` as length, starting with the `P` period that the `From` parameter is included in. If no `From` parameter is included, the first ever `P` period where there were bidding events is the first period included in the report. If the `To` time parameter does not refer to an even `P` period end, the `P` period to which it belongs will be included. If the `To` parameter is omitted, the current date and time is used as the end for the report period.
+`BiddingStatistics` supports grouping bidding statistics by a time period given in the `GroupBy` parameter. Using `GroupBy` we can, for example, order a day's spending into 8 "chunks", each representing a 3 hour periods of the day. Each allowed value of `GroupBy` has a certain spending snapshot period that it uses for generating the report(s). If we want to group spending by 20 minute periods, for example, we set `GroupBy` to `"20min"`, which would also mean we're using [`_20min`]() [campaign spending snapshots](../../Mopedo.Bidding/CampaignSpendingSnapshot) for the report. Some `GroupBy` values, like `"12h"` for example, does not have a dedicated snapshot period, and instead uses 4 `_3h` snapshots to generate each report.
+
+For each period `P`, where `P` is any of the values listed below, `GroupBy` groups the ouput into periods with `P` as length, starting with the `P` period that the `From` parameter is included in. If no `From` parameter is included, the first ever `P` period where there were bidding events is the first period included in the report. If the `To` time parameter does not refer to an even `P` period end, the `P` period to which it belongs will be included. If the `To` parameter is omitted, the current date and time is used as the end for the report period.
 
 `GroupBy` conditions may have any of the following seven values:
 
@@ -60,11 +62,3 @@ Statistics    | [`Statistics`](../../Mopedo.Bidding/Statistics) | The statistics
 ### Important
 
 The DSP does not store spending snapshots of all periods indefinetely. `_20min` snapshots, for example, are usually trimmed after 60 days. For more information, see the section on [snapshot trimming](../../Mopedo.Bidding/CampaignSpendingSnapshot#snapshot-trimming).
-
-#### Example
-
-```
-GET https://my-dsp.com:8282/rest/biddingstatistics/from=2018-09-01&to=2018-09-02&groupby=20min
-Headers: "Authorization: apikey mykey"
-Response body:
-```
