@@ -23,7 +23,7 @@ Keywords       | `string`                                                       
 
 ## Server setup and security
 
-The advertiser has set up a Mopedo DSP application on a cloud location, and secured the [REST API](../../Developer%20guides/API%20reference/API%20reference%20overview) behind an HTTPS-compatible web server using their own SSL certificate. REST API requests are validated using an [API key](../../../../RESTar/Administering%20a%20RESTar%20API/API%20keys) included in the `Authorization` header, and the web server routes the requests to the DSP using [reverse proxy](../../Administration%20guides/IIS%20reverse%20proxy%20setup%20guide). In the Mopedo [configuration file](../../Administration%20guides/Configuration%20guide), the advertiser has assigned an API key, `PT5oNGs3Ron9`, that will be used in all REST requests.
+The advertiser has set up a Mopedo DSP application on a cloud location, and secured the [REST API](../../Developer%20guides/API%20reference/API%20reference%20overview) behind an HTTPS-compatible web server using their own SSL certificate. REST API requests are validated using an [API key](../../../RESTar/Administering%20a%20RESTar%20API/API%20keys) included in the `Authorization` header, and the web server routes the requests to the DSP using [reverse proxy](../../Administration%20guides/IIS%20reverse%20proxy%20setup%20guide). In the Mopedo [configuration file](../../Administration%20guides/Configuration%20guide), the advertiser has assigned an API key, `PT5oNGs3Ron9`, that will be used in all REST requests.
 
 ## JavaScript tag and cookie syncing
 
