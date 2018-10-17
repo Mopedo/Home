@@ -134,7 +134,7 @@ dsp-api:
       - title: "UnsupportedBannerReport"
         url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Reporting/UnsupportedBannerReport/
       - title: "PeriodReport"
-
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Reporting/PeriodReport/
   - title: "Archive resources"
     children:
       - title: "Archive overview"

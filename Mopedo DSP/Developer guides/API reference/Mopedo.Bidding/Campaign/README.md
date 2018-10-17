@@ -127,7 +127,7 @@ We can upload campaigns by making a POST or PUT request to the `Mopedo.Bidding.C
 
 ```
 cd /Users/erik/Desktop
-curl -X PUT 'https://my-dsp.com:8282/rest/campaign/id=c1' -d '@data.json' -H 'Authorization: apikey mykey'
+curl -X PUT 'https://my-dsp.com:8282/rest/bidding.campaign/id=c1' -d '@data.json' -H 'Authorization: apikey mykey'
 ```
 
 We insert a new campaign with `Id` equal to `"c1"`, or update any existing `Campaign` with that `Id`. As data we use `data.json`, a text file located on my desktop with the following JSON-formatted content:
