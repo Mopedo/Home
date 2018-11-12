@@ -77,7 +77,7 @@ BidTemplates  | array of [`BidTemplate`](#bidtemplate) | If the array includes m
 
 ## `Condition`
 
-Each `Condition` entity encodes a predicate that is either true or false of a given [bid request](../../Mopedo.Database/BidRequest). They are used in bid rules to define the comparison logic used when determining which [bid template](#bidtemplate) to use in a bid response. They are defined by a `Key`, which is a **path expression** to some property to compare against, an `Operator` that defines the comparison operation, and a `Value` that holds the value to compare against. The DSP will automatically type check all conditions with `Key` path expressions referring to properties of statically typed resources, and their operators, and notify the user if there are any errors, by updating the `Errors` array in the [`Campaign`](../Campaign) entity.
+Each `Condition` entity encodes a predicate that is either true or false of a given [bid request](../../Mopedo.Database/BidRequest). They are used in bid rules to define the comparison logic used when determining which [bid template](#bidtemplate) to use in a bid response. They are defined by a `Key`, which is a [path expression](../Path%20expressions%20and%20macros) to some property to compare against, an `Operator` that defines the comparison operation, and a `Value` that holds the value to compare against. The DSP will automatically type check all conditions with `Key` path expressions referring to properties of statically typed resources, and their operators, and notify the user if there are any errors, by updating the `Errors` array in the [`Campaign`](../Campaign) entity.
 
 ### Format
 
