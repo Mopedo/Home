@@ -27,13 +27,17 @@ Used to denote the [`User`](../../Mopedo.Database/User) contained in a [bid requ
 
 Used to denote the [`Device`](../../Mopedo.Database/Device) contained in a [bid request](../../Mopedo.Database/BidRequest)
 
-#### `Site`
+#### `Site`​
 
 Used to denote the [`Site`](../../Mopedo.Database/Site) contained in a [bid request](../../Mopedo.Database/BidRequest)
 
 #### `App`
 
-Used to denote the [`User`](../../Mopedo.Database/App) contained in a [bid request](../../Mopedo.Database/BidRequest)
+Used to denote the [`User`](../../Mopedo.Database/App) contained in a [bid request](../../Mopedo.Database/BidRequest).
+
+#### `Banner`
+
+Used to denote the [`Banner`](../../Mopedo.Bidding/Banner) contained in a [bid request](../../Mopedo.Database/BidRequest)
 
 #### `Now`
 
