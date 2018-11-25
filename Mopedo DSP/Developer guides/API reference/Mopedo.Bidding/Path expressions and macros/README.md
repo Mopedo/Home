@@ -33,7 +33,7 @@ Used to denote the [`Site`](../../Mopedo.Database/Site) contained in a [bid requ
 
 #### `App`
 
-Used to denote the [`User`](../../Mopedo.Database/App) contained in a [bid request](../../Mopedo.Database/BidRequest).
+Used to denote the [`App`](../../Mopedo.Database/App) contained in a [bid request](../../Mopedo.Database/BidRequest).
 
 #### `Banner`
 
