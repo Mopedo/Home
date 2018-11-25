@@ -52,10 +52,10 @@ User.UserId
 Device.Geo.Longitude
 Site.Publisher.Domain
 Banner.Width
+Banner.AboveTheFold
 App.Bundle
 User.AdWinCount(ad001) // where ad001 is an ad id
 Device.Extension.deviceGroup
-Banner.AboveTheFold
 Now.Hour
 Device.CreatedAt
 User.Extension.usergroup
