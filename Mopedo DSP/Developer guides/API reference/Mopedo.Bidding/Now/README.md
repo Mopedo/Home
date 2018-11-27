@@ -31,4 +31,4 @@ Year                  | `integer`                    | The year, e.g. 2017
 TimeOfDay             | `string`                     | Time as sortable string, e.g. `"12:17:21.6553277"`
 TimeZone              | `string`                     | The name of the time zone where the DSP is located
 UTCOffset             | `string`                     | The UTC offset of the server's current time zone
-IsDayLightSavingsTime | `boolean`                    | Is the server's time zone currently in DST?
+IsDaylightSavingsTime | `boolean`                    | Is the server's time zone currently in DST?
