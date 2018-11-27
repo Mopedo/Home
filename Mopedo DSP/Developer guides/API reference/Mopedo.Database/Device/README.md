@@ -28,7 +28,6 @@ Property name          | Type                                                   
 BrowserUserAgent       | `string`                                                     | User agent, provided by the browser
 Geo                    | [`Geo`](#geo)                                                | Geo-location for the device
 DoNotTrack             | `boolean`                                                    | Is "do not track" activated in the device's browser?
-DeviceIpv6             | `string`                                                     | The IPv6 address associated with this device
 Ifa                    | `string`                                                     | The ifa/idfa associated with this device
 DeviceType             | `integer`                                                    | Device type as defined by OpenRTB
 Make                   | `string`                                                     | Device manufacturer, e.g. `"Apple"`
