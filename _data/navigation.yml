@@ -74,6 +74,8 @@ dsp-api:
         url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Bidding/NoBidReason/
       - title: "Now"
         url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Bidding/Now/
+      - title: "ConditionValidator"
+        url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Bidding/ConditionValidator/
       - title: "Statistics"
         url: /Mopedo%20DSP/Developer%20guides/API%20reference/Mopedo.Bidding/Statistics/
       - title: "CampaignSpendingSnapshot"
