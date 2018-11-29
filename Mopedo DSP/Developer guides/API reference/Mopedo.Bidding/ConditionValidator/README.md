@@ -26,7 +26,7 @@ AllowedOperators | array of `string` | The [operators](../../Operator) that are 
 
 ## Wildcards
 
-Some parts of conditions keys, for example property names of dynamic resources like [`UserExtension`](../../../Mopedo.ClientData/UserExtension), are represented as `*` in the content of this resource. This is a [wildcard character](https://whatis.techtarget.com/definition/wildcard-character) indicating that a range of possible values, not statically determinable, can be used in place of the wildcard. For example, the output from `ConditionValidator` contains information about conditions for `UserExtension` properties. These properties are dynamically assigned to `UserExtension` entities, and there is no way to list all allowed values. Instead the wildcard character is used.
+Some parts of conditions keys, for example property names of dynamic resources like [`UserExtension`](../../Mopedo.ClientData/UserExtension), are represented as `*` in the content of this resource. This is a [wildcard character](https://whatis.techtarget.com/definition/wildcard-character) indicating that a range of possible values, not statically determinable, can be used in place of the wildcard. For example, the output from `ConditionValidator` contains information about conditions for `UserExtension` properties. These properties are dynamically assigned to `UserExtension` entities, and there is no way to list all allowed values. Instead the wildcard character is used.
 
 ```json
 {
@@ -50,4 +50,4 @@ Some parts of conditions keys, for example property names of dynamic resources l
 
 This means that arbitrary valid keys can be constructed by substituting the wildcard character with a property name, for example `User.Extension.MySegment`.
 
-Wildcards are also used in the [`AdWinCount()`](../../../Mopedo.Database/Common%20properties#adwincount) and [`AdClickCount()`](../../../Mopedo.Database/Common%20properties#adclickcount) methods to indicate the place where to insert the [ad](../Ad) id to calculate wins and clicks for.
+Wildcards are also used in the [`AdWinCount()`](../../Mopedo.Database/Common%20properties#adwincount) and [`AdClickCount()`](../../Mopedo.Database/Common%20properties#adclickcount) methods to indicate the place where to insert the [ad](../Ad) id to calculate wins and clicks for.
