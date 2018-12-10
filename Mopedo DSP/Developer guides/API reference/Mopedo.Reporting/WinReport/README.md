@@ -21,7 +21,7 @@ By providing conditions that describe the properties of the wins we want to matc
 The following properties can be used in [request URIs](../../../../../RESTar/Consuming%20a%20RESTar%20API/URI) to specify the report parameters:
 
 Property name    | Type                                     | Description
----------------- | ---------------------------------------- | -----------------------------------------------------
+---------------- | ---------------------------------------- | -------------------------------------------------------------------
 User             | [`User`](../../Mopedo.Database/User)     | The user associated with this win
 Device           | [`Device`](../../Mopedo.Database/Device) | The device associated with this win
 Site             | [`Site`](../../Mopedo.Database/Site)     | The site associated with this win
@@ -34,7 +34,7 @@ ClickedAt        | [`datetime`](../../Datetime)             | The date and time 
 ClickLandingPage | `string`                                 | The LandingPage of the winning bid
 CampaignId       | `string`                                 | The id of the Campaign that generated this win
 BuyerId          | `string`                                 | An optional buyer id (of campaigns) to filter against
-AdId             | `string`                                 | The id of the Ad that generated this win
+AdId             | `string`                                 | The id of the [Ad](../../Mopedo.Bidding/Ad) that generated this win
 Time             | [`datetime`](../../Datetime)             | The time when the bid was placed
 
 ## Format

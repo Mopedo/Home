@@ -51,3 +51,7 @@ Some parts of conditions keys, for example property names of dynamic resources l
 This means that arbitrary valid keys can be constructed by substituting the wildcard character with a property name, for example `User.Extension.MySegment`.
 
 Wildcards are also used in the [`AdWinCount()`](../../Mopedo.Database/Common%20properties#adwincount) and [`AdClickCount()`](../../Mopedo.Database/Common%20properties#adclickcount) methods to indicate the place where to insert the [ad](../Ad) id to calculate wins and clicks for.
+
+## Example usage
+
+`ConditionValidator` is useful when an external system is set up to receive and validate bid rules from a system user. Instead of having to ask the DSP application to validate each condition inputted, the external system can simply download the `ConditionValidator` tree to a local data structure, add additional externally defined condition keys, and validate the inputted conditions on site.

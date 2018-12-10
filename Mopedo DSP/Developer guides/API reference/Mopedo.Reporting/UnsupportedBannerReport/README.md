@@ -16,7 +16,7 @@ permalink: >-
 Use the `UnsupportedBannerReport` resource to create an aggregated view over all the instances where a [bid template](../../Mopedo.Bidding/Campaign#bidtemplate) was matched for a [bid request](../../Mopedo.Database/BidRequest), but did not contain any [`Ad`](../../Mopedo.Bidding/Ad) of proper dimensions. Keeping track of this resource and identifying missing banner dimensions can give you great insight on how to improve your campaigns. The following properties can be used to specify the report parameters:
 
 Property name | Type                         | Description
-------------- | ---------------------------- | -------------------------------------------------------
+------------- | ---------------------------- | --------------------------------------------------------------
 Domain        | `string`                     | The domain on which the banner ad slot was placed
 Info          | `string`                     | Information about the missed bid opportunity
 Time          | [`datetime`](../../Datetime) | The time when the missed bid opportunity was registered
@@ -25,7 +25,7 @@ Height        | `integer`                    | The height of the unsupported ad 
 Dimensions    | `string`                     | The dimensions expressed as a string, e.g. `"250x300"`
 CampaignId    | `string`                     | An optional campaign id to filter against
 BuyerId       | `string`                     | An optional buyer id (of campaigns) to filter against
-AdId          | `string`                     | An optional ad id to filter against
+AdId          | `string`                     | An optional [Ad](../../Mopedo.Bidding/Ad) id to filter against
 
 The response contains a list of missing banner dimensions, with the following format:
 

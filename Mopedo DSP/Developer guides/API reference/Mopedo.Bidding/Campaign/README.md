@@ -112,7 +112,7 @@ Value         | `dynamic` | The value asserted for the property, can be of any t
 
 Bid templates define the ads that should be considered if all conditions in the bid rule are true for a given bid request, and the price to use in bids with those ads.
 
-Each `BidTemplate` can contain many `AdId` strings, which is useful when including different formats for a single creative. When evaluating a bid request, the bidder will choose the first `Ad` that matches the dimensions of the impression up for auction.
+Each `BidTemplate` can contain many ad ID strings, which is useful when including different formats for a single creative. When evaluating a bid request, the bidder will choose the first `Ad` that matches the dimensions of the impression up for auction.
 
 ### Format
 
@@ -120,6 +120,20 @@ Property name | Type                   | Description
 ------------- | ---------------------- | ----------------------------------------------------------
 AdIds         | array of `string`      | The AdIds of the ads connected to this bid template
 Price         | [`Price`](../../Price) | The bid price for the bid, will always be converted to CPM
+
+## Views
+
+The `Campaign` resource has one [view](../../../../../RESTar/Consuming%20a%20RESTar%20API/URI/Resource#views):
+
+### `FromIds`
+
+`FromIds` takes a comma-separated list of campaign IDs, and returns their corresponding campaigns. Example URI: `/campaign-fromids/campaignIds=c1,c2,c3`.
+
+#### Format
+
+Property name | Type     | Description
+------------- | -------- | --------------------------------------
+CampaignIds   | `string` | A comma-separated list of campaign IDs
 
 ## Campaign example
 

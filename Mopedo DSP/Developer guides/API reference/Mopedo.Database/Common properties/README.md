@@ -33,7 +33,7 @@ All database resource entities have a `UsedCount` property – an integer that i
 
 ## `AdWinCount`
 
-The `AdWinCount` method is used to calculate the number of times a certain `Ad` has been used to generate a [winning bid](../Win) on a given database resource entity. `AdWinCount` is available for all database resources. The method takes an `AdId` as argument, and is useful when setting up [bid rules](../../Mopedo.Bidding/Campaign#bidrule), so that the same ad is only showed a definite number of times for a certain user, for example. It can only be used when defining bid rule [conditions](../../Mopedo.Bidding/Campaign#condition). To print equivalent data using the REST API, use the [WinReport](../../Mopedo.Reporting/WinReport) resource instead.
+The `AdWinCount` method is used to calculate the number of times a certain [`Ad`](../../Mopedo.Bidding/Ad) has been used to generate a [winning bid](../Win) on a given database resource entity. `AdWinCount` is available for all database resources. The method takes an ad ID as argument, and is useful when setting up [bid rules](../../Mopedo.Bidding/Campaign#bidrule), so that the same ad is only showed a definite number of times for a certain user, for example. It can only be used when defining bid rule [conditions](../../Mopedo.Bidding/Campaign#condition). To print equivalent data using the REST API, use the [WinReport](../../Mopedo.Reporting/WinReport) resource instead.
 
 ### Example
 
@@ -45,11 +45,11 @@ The `AdWinCount` method is used to calculate the number of times a certain `Ad` 
 }
 ```
 
-Adding the [condition](../../Mopedo.Bidding/Campaign#condition) above to a bid rule will make it exclude all bid requests containing users that have had the ad `ad001` shown 10 times or more. Formally, the condition above is true and only true for all users `U` such that the `Ad` with `AdId` `"ad001"` was used at most 10 times in winning bids on bid requests where `U` was the `User`.
+Adding the [condition](../../Mopedo.Bidding/Campaign#condition) above to a bid rule will make it exclude all bid requests containing users that have had the ad `ad001` shown 10 times or more. Formally, the condition above is true and only true for all users `U` such that the `Ad` with ID `"ad001"` was used at most 10 times in winning bids on bid requests where `U` was the `User`.
 
 ## `AdClickCount`
 
-The `AdClickCount` method is used to get the number of times a certain ad has been clicked, for a given database resource entity. `ClickCount` is available for all database resources, but for it to work, `Ad` entities need to be set up to use [automatic click tracking](../../Mopedo.Bidding/Click%20tracking). The method takes an `AdId` as argument, and is useful when setting up bid rules that trigger a change in behavior based on the number of time an ad is clicked. To print equivalent data using the REST API, use the [`WinReport`](../../Mopedo.Reporting/WinReport) resource instead.
+The `AdClickCount` method is used to get the number of times a certain ad has been clicked, for a given database resource entity. `ClickCount` is available for all database resources, but for it to work, [`Ad`](../../Mopedo.Bidding/Ad) entities need to be set up to use [automatic click tracking](../../Mopedo.Bidding/Click%20tracking). The method takes an ad ID as argument, and is useful when setting up bid rules that trigger a change in behavior based on the number of time an ad is clicked. To print equivalent data using the REST API, use the [`WinReport`](../../Mopedo.Reporting/WinReport) resource instead.
 
 ### Example
 
@@ -61,7 +61,7 @@ The `AdClickCount` method is used to get the number of times a certain ad has be
 }
 ```
 
-Adding the [condition](../../Mopedo.Bidding/Campaign#condition) above to a bid rule will make it exclude all bid requests containing a site on which the ad `ad001` has been clicked less than 1001 times. Formally, the condition above is true and only true of sites `S` such that the `Ad` with `AdId` `"ad002"` has been clicked at least 1000 times on `S`.
+Adding the [condition](../../Mopedo.Bidding/Campaign#condition) above to a bid rule will make it exclude all bid requests containing a site on which the ad `ad001` has been clicked less than 1001 times. Formally, the condition above is true and only true of sites `S` such that the `Ad` with `Id` `"ad002"` has been clicked at least 1000 times on `S`.
 
 ## `CampaignWinCount`
 

@@ -74,7 +74,7 @@ PUT https://dsp.theshoestore.com/rest/ad/adid=ad07
 Headers: "Authorization: apikey PT5oNGs3Ron9"
 Body: {
     "AdType": "banner",
-    "AdId": "ad07",
+    "Id": "ad07",
     "Label": "loafers300x250",
     "MinWidth": 280,
     "MaxWidth": 320,

@@ -20,7 +20,7 @@ _Properties marked in **bold** are required._
 
 Property name                | Type                                     | Description
 ---------------------------- | ---------------------------------------- | -----------------------------------------------------------------------------------------------
-**AdId**                     | `string`                                 | A unique id for the ad
+**Id**                       | `string`                                 | A unique id for the ad
 BuyerId                      | `string`                                 | An optional ID of the buyer using this ad, for reference in reports etc.
 **AdType**                   | `enum`                                   | Allowed: `"banner"`, `"video"` or `"native"`
 Label                        | `string`                                 | A describing label for the ad
@@ -36,6 +36,7 @@ AutoClickTrackingEnabled     | `boolean`                                | Is [au
 LandingPage                  | `string`                                 | The landing page for click tracking. Can include [macros](../Path%20expressions%20and%20macros)
 Dimensions                   | `string` (read-only)                     | A string representation of the ad dimensions
 ImplementsClickTrackingMacro | `boolean` (read-only)                    | Does this ad implement click tracking?
+~**AdId**~                   | ~`string`~                               | Obsolete. Use `Id` instead.
 
 ## Views
 
@@ -65,15 +66,15 @@ CampaignId    | `string` | The ID of the campaign to fetch ads for
 
 ```
 cd /Users/erik/Desktop
-curl -X PUT 'https://my-dsp.com:8282/rest/ad/adid=ad01' -d '@data.json' -H 'Authorization: apikey mykey'
+curl -X PUT 'https://my-dsp.com:8282/rest/ad/id=ad01' -d '@data.json' -H 'Authorization: apikey mykey'
 ```
 
-We insert a new `Ad` with `AdId` `"ad01"`, or update any already existing `Ad` with that ID. As data source we use `data.json`, a text file located on my desktop with the following JSON-formatted content:
+We insert a new `Ad` with `Id` `"ad01"`, or update any already existing `Ad` with that ID. As data source we use `data.json`, a text file located on my desktop with the following JSON-formatted content:
 
 ```json
 {
     "AdType": "banner",
-    "AdId": "ad01",
+    "Id": "ad01",
     "Label": "My new ad",
     "MinWidth": 720,
     "MaxWidth": 735,

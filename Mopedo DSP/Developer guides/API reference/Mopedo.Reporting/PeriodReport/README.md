@@ -27,7 +27,7 @@ From          | [`datetime`](../../Datetime) | The time of the earliest period r
 To            | [`datetime`](../../Datetime) | The time of the latest period report contained in the response
 CampaignId    | `string`                     | An optional campaign id to filter against
 BuyerId       | `string`                     | An optional buyer id (of campaigns) to filter against
-AdId          | `string`                     | An optional buyer id to filter against
+AdId          | `string`                     | An optional [Ad](../../Mopedo.Bidding/Ad) id to filter against
 
 ## Format
 
