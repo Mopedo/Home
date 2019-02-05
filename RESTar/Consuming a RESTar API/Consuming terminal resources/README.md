@@ -8,7 +8,7 @@ Terminal resources are small single-purpose console applications that can be lau
 
 The easiest way to initiate a WebSocket connection with a RESTar API while testing, is to use a command line tool like [`wscat`](https://www.npmjs.com/package/wscat), but something like [this Chrome extension](https://chrome.google.com/webstore/detail/simple-websocket-client/pfdhoblngboilpfeibdedpjgfnlcodoo?hl=en) works fine too if you prefer to work with a web browser.
 
-To test things out, let's make a request to the `RESTar.Shell` terminal resource on our demo service. For this we can use this `wscat` command:
+To test things out, let's make a request to the [`RESTar.Shell`](../../Built-in%20resources/RESTar/Shell) terminal resource on our demo service. For this we can use this `wscat` command:
 
 ```
 wscat -c "wss://restarhelp.mopedo-drtb.com:8282/api/shell" -H "Authorization: apikey restar"
