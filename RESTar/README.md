@@ -18,7 +18,7 @@ Using RESTar tools, developers can quickly build powerful REST APIs that, among 
 6. Allow clients to [set up database indexes](Built-in%20resources/RESTar.Admin/DatabaseIndex) to optimize database queries
 7. Can save any data to an [Excel file](Consuming%20a%20RESTar%20API/Headers#accept)
 8. Allow clients to set up HTTP callbacks using [webhooks](Administering%20a%20RESTar%20API/Webhooks) that listen for [custom events](Resource%20kinds/Event%20resources)
-9. Has a built-in [WebSocket shell](Built-in%20resources/RESTar/Shell) that clients can use to explore and consume the REST API, as well as support for [custom websocket resources](Developing%20a%20RESTar%20API/Terminal%20resources)
+9. Have a built-in [WebSocket shell](Built-in%20resources/RESTar/Shell) that clients can use to explore and consume the REST API, as well as support for [custom websocket resources](Developing%20a%20RESTar%20API/Terminal%20resources)
 
 ## Terminology
 
