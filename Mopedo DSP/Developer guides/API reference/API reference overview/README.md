@@ -12,7 +12,7 @@ In this section of the documentation, we detail the web resources that are avail
 
 ## 2\. Database resources
 
-> The database namespace include the `User` and `Device` resources, which are updated as traffic is received from the Mopedo backend or when [user matching](../../Feature%20guides/User%20matching). Contained in the `Mopedo.Database` namespace.
+> The database namespace include the `User` and `Device` resources, which are updated as traffic is received from the Mopedo backend or when [user matching](../../../Feature%20guides/User%20matching). Contained in the `Mopedo.Database` namespace.
 
 ## 3\. Client data resources
 
