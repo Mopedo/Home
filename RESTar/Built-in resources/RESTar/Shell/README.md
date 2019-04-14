@@ -47,7 +47,7 @@ The `GO` command sets the `Query` property to argument text (excluding any white
 
 ### `GET`
 
-Executes a `GET` request with the value of the `Query` property as URI along with the [headers](#header) defined for the shell. Any argument given is used as the body of the request (UTF8). On success, the content of the body is sent back to the client along with the status code and description. On fail, an error message is returned. If the body is larger than 16 megabytes, the client will be required to [stream the result](../../../Consuming%20a%20RESTar%20API/Consuming%20terminal%20resources#streaming) over multiple WebSocket messages.
+Executes a `GET` request with the value of the `Query` property as URI along with the [headers](#header) defined for the shell. Any argument given is used as the body of the request (UTF8). On success, the content of the response body is sent back to the client along with the response status code and description. On fail, an error message is returned. If the body is larger than 16 megabytes, the client will be required to [stream the result](../../../Consuming%20a%20RESTar%20API/Consuming%20terminal%20resources#streaming) over multiple WebSocket messages.
 
 ```
 > GO /aggregator
