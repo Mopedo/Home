@@ -152,10 +152,10 @@ Property name     | Type               | Description
 ----------------- | ------------------ | ----------------------------------------------------------------------------------
 TotalLength       | `integer`          | The total length of the streaming response body in bytes
 BytesRemaining    | `integer`          | The number of bytes remaining to stream
-BytesStreamed     | `integer`          | The nuymber of bytes already streamed
+BytesStreamed     | `integer`          | The number of bytes already streamed
 NrOfMessages      | `integer`          | The number of messages in the streaming job
 MessagesRemaining | `integer`          | The number of messages left to stream
-MessagesStreamed  | `integer`          | The nymber of messages already streamed
+MessagesStreamed  | `integer`          | The number of messages already streamed
 ContentType       | `string`           | The MIME type string of the content type that the response body is encoded in
 EntityType        | `string`           | The name of the type of the entities contained in the response body
 EntityCount       | `integer`          | The number of entities contained in the response body
